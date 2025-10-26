@@ -18,8 +18,8 @@
     {
       "atomType": "Rectangle",
       "name": "Rectangle",
-      "x": 0.2861828618286183,
-      "y": 0.27136431784107945,
+      "x": 0.18696186961869618,
+      "y": 0.10644677661169416,
       "uniqueID": "eccd0b97-4eea-4c9f-b5a3-6eb838784279",
       "ioValues": [
         {
@@ -37,8 +37,8 @@
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.3767937679376794,
-      "y": 0.32233883058470764,
+      "x": 0.2726527265272653,
+      "y": 0.16191904047976013,
       "uniqueID": "7b655a3e-22de-483a-9bd1-73da40d44223",
       "ioValues": [
         {
@@ -67,8 +67,8 @@
     {
       "atomType": "Equation",
       "name": "x/y",
-      "x": 0.2865928659286593,
-      "y": 0.4512743628185907,
+      "x": 0.1816318163181632,
+      "y": 0.2173913043478261,
       "uniqueID": "b2ff13db-eb4f-4419-ac1f-829a1ad83bc6",
       "ioValues": [
         {
@@ -103,13 +103,53 @@
       "value": 500
     },
     {
-      "atomType": "Constant",
-      "name": "couch height",
-      "x": 0.17343173431734318,
-      "y": 0.6401799100449775,
-      "uniqueID": "4de8ff8a-291d-4adf-854d-b71f21cc36eb",
-      "ioValues": [],
-      "value": 10
+      "atomType": "Equation",
+      "name": "x*y",
+      "x": 0.10619106191061911,
+      "y": 0.4662668665667166,
+      "uniqueID": "c638155d-4d92-4ccb-a69f-78ff47e3fb7b",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 500
+        },
+        {
+          "name": "y",
+          "ioValue": 2,
+          "currentEquation": "2"
+        }
+      ],
+      "currentEquation": "x*y"
+    },
+    {
+      "atomType": "Extrude",
+      "name": "Extrude",
+      "x": 0.3665436654366544,
+      "y": 0.17991004497751123,
+      "uniqueID": "e42f3166-9c5c-4d1f-ab51-cb25aab1f23d",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 18
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "name": "Rectangle",
+      "x": 0.21361213612136123,
+      "y": 0.42578710644677664,
+      "uniqueID": "2a81744a-223c-4903-9919-8dcacd5ca8bd",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 500
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -118,6 +158,12 @@
       "ap2Name": "geometry",
       "ap1ID": "eccd0b97-4eea-4c9f-b5a3-6eb838784279",
       "ap2ID": "7b655a3e-22de-483a-9bd1-73da40d44223"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "7b655a3e-22de-483a-9bd1-73da40d44223",
+      "ap2ID": "e42f3166-9c5c-4d1f-ab51-cb25aab1f23d"
     },
     {
       "ap1Name": "number",
@@ -136,6 +182,24 @@
       "ap2Name": "yDist",
       "ap1ID": "b2ff13db-eb4f-4419-ac1f-829a1ad83bc6",
       "ap2ID": "7b655a3e-22de-483a-9bd1-73da40d44223"
+    },
+    {
+      "ap1Name": "number",
+      "ap2Name": "height",
+      "ap1ID": "d7a237ae-a46f-4591-9eae-993d1201b7a2",
+      "ap2ID": "e42f3166-9c5c-4d1f-ab51-cb25aab1f23d"
+    },
+    {
+      "ap1Name": "number",
+      "ap2Name": "x",
+      "ap1ID": "ee8e31bf-8dd8-4124-9a60-a3f02c9e467e",
+      "ap2ID": "c638155d-4d92-4ccb-a69f-78ff47e3fb7b"
+    },
+    {
+      "ap1Name": "number",
+      "ap2Name": "x length",
+      "ap1ID": "ee8e31bf-8dd8-4124-9a60-a3f02c9e467e",
+      "ap2ID": "2a81744a-223c-4903-9919-8dcacd5ca8bd"
     }
   ],
   "unitsKey": "MM",
