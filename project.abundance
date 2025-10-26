@@ -58,8 +58,8 @@
     {
       "atomType": "Constant",
       "name": "Couch length",
-      "x": 0.15703157031570314,
-      "y": 0.2623688155922039,
+      "x": 0.03239032390323903,
+      "y": 0.1409295352323838,
       "uniqueID": "7d42d22b-5c9a-4e0b-b889-770e792a09a3",
       "ioValues": [],
       "value": 1600
@@ -83,6 +83,24 @@
         }
       ],
       "currentEquation": "x/y"
+    },
+    {
+      "atomType": "Constant",
+      "name": "plywood thickness",
+      "x": 0.03280032800328003,
+      "y": 0.2623688155922039,
+      "uniqueID": "d7a237ae-a46f-4591-9eae-993d1201b7a2",
+      "ioValues": [],
+      "value": 18
+    },
+    {
+      "atomType": "Constant",
+      "name": "seat height",
+      "x": 0.15006150061500614,
+      "y": 0.6746626686656672,
+      "uniqueID": "ee8e31bf-8dd8-4124-9a60-a3f02c9e467e",
+      "ioValues": [],
+      "value": 10
     }
   ],
   "allConnectors": [
