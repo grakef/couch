@@ -96,9 +96,18 @@
     {
       "atomType": "Constant",
       "name": "seat height",
-      "x": 0.15006150061500614,
-      "y": 0.6746626686656672,
+      "x": 0.03444034440344403,
+      "y": 0.4017991004497751,
       "uniqueID": "ee8e31bf-8dd8-4124-9a60-a3f02c9e467e",
+      "ioValues": [],
+      "value": 500
+    },
+    {
+      "atomType": "Constant",
+      "name": "couch height",
+      "x": 0.17343173431734318,
+      "y": 0.6401799100449775,
+      "uniqueID": "4de8ff8a-291d-4adf-854d-b71f21cc36eb",
       "ioValues": [],
       "value": 10
     }
