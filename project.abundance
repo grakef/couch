@@ -1,15 +1,118 @@
 {
-    "atomType": "Molecule",
-    "name": "couch",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "0ab98a63-a8bd-494b-aa21-d34403af7ef1",
-    "ioValues": [],
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "compiledBom": {},
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "name": "couch",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "0ab98a63-a8bd-494b-aa21-d34403af7ef1",
+  "ioValues": [],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "35391a34-ce4f-4eb7-9f15-7f4e823bc566",
+      "ioValues": []
+    },
+    {
+      "atomType": "Rectangle",
+      "name": "Rectangle",
+      "x": 0.2861828618286183,
+      "y": 0.27136431784107945,
+      "uniqueID": "eccd0b97-4eea-4c9f-b5a3-6eb838784279",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 150,
+          "currentEquation": "150"
+        },
+        {
+          "name": "y length",
+          "ioValue": 1600,
+          "currentEquation": "1800"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.3767937679376794,
+      "y": 0.32233883058470764,
+      "uniqueID": "7b655a3e-22de-483a-9bd1-73da40d44223",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 800
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Constant",
+      "name": "Couch length",
+      "x": 0.15703157031570314,
+      "y": 0.2623688155922039,
+      "uniqueID": "7d42d22b-5c9a-4e0b-b889-770e792a09a3",
+      "ioValues": [],
+      "value": 1600
+    },
+    {
+      "atomType": "Equation",
+      "name": "x/y",
+      "x": 0.2865928659286593,
+      "y": 0.4512743628185907,
+      "uniqueID": "b2ff13db-eb4f-4419-ac1f-829a1ad83bc6",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1600,
+          "currentEquation": "x"
+        },
+        {
+          "name": "y",
+          "ioValue": 2,
+          "currentEquation": "2"
+        }
+      ],
+      "currentEquation": "x/y"
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "eccd0b97-4eea-4c9f-b5a3-6eb838784279",
+      "ap2ID": "7b655a3e-22de-483a-9bd1-73da40d44223"
+    },
+    {
+      "ap1Name": "number",
+      "ap2Name": "y length",
+      "ap1ID": "7d42d22b-5c9a-4e0b-b889-770e792a09a3",
+      "ap2ID": "eccd0b97-4eea-4c9f-b5a3-6eb838784279"
+    },
+    {
+      "ap1Name": "number",
+      "ap2Name": "x",
+      "ap1ID": "7d42d22b-5c9a-4e0b-b889-770e792a09a3",
+      "ap2ID": "b2ff13db-eb4f-4419-ac1f-829a1ad83bc6"
+    },
+    {
+      "ap1Name": "result",
+      "ap2Name": "yDist",
+      "ap1ID": "b2ff13db-eb4f-4419-ac1f-829a1ad83bc6",
+      "ap2ID": "7b655a3e-22de-483a-9bd1-73da40d44223"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "compiledBom": {},
+  "filetypeVersion": 1
 }
