@@ -122,19 +122,6 @@
       "currentEquation": "x*y"
     },
     {
-      "atomType": "Extrude",
-      "name": "Extrude",
-      "x": 0.3665436654366544,
-      "y": 0.17991004497751123,
-      "uniqueID": "e42f3166-9c5c-4d1f-ab51-cb25aab1f23d",
-      "ioValues": [
-        {
-          "name": "height",
-          "ioValue": 18
-        }
-      ]
-    },
-    {
       "atomType": "Rectangle",
       "name": "Rectangle",
       "x": 0.21361213612136123,
@@ -147,9 +134,60 @@
         },
         {
           "name": "y length",
-          "ioValue": 10
+          "ioValue": 350
         }
       ]
+    },
+    {
+      "atomType": "Constant",
+      "name": "Seat depth",
+      "x": 0.041820418204182044,
+      "y": 0.6011994002998501,
+      "uniqueID": "40aa382c-66e1-4f7a-b6ca-eee43c67b9ad",
+      "ioValues": [],
+      "value": 350
+    },
+    {
+      "atomType": "Rotate",
+      "name": "Rotate",
+      "x": 0.2993029930299303,
+      "y": 0.4767616191904048,
+      "uniqueID": "dd1dea17-2751-4f04-a246-721fad9ccb90",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 90,
+          "currentEquation": "90"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "name": "x + y",
+      "x": 0.4030340303403034,
+      "y": 0.48875562218890556,
+      "uniqueID": "6f1f6bf3-9e41-4494-b331-10592ea12502",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 500
+        },
+        {
+          "name": "y",
+          "ioValue": 2,
+          "currentEquation": "2"
+        }
+      ],
+      "currentEquation": "x + y"
     }
   ],
   "allConnectors": [
@@ -158,12 +196,6 @@
       "ap2Name": "geometry",
       "ap1ID": "eccd0b97-4eea-4c9f-b5a3-6eb838784279",
       "ap2ID": "7b655a3e-22de-483a-9bd1-73da40d44223"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "7b655a3e-22de-483a-9bd1-73da40d44223",
-      "ap2ID": "e42f3166-9c5c-4d1f-ab51-cb25aab1f23d"
     },
     {
       "ap1Name": "number",
@@ -185,12 +217,6 @@
     },
     {
       "ap1Name": "number",
-      "ap2Name": "height",
-      "ap1ID": "d7a237ae-a46f-4591-9eae-993d1201b7a2",
-      "ap2ID": "e42f3166-9c5c-4d1f-ab51-cb25aab1f23d"
-    },
-    {
-      "ap1Name": "number",
       "ap2Name": "x",
       "ap1ID": "ee8e31bf-8dd8-4124-9a60-a3f02c9e467e",
       "ap2ID": "c638155d-4d92-4ccb-a69f-78ff47e3fb7b"
@@ -199,6 +225,24 @@
       "ap1Name": "number",
       "ap2Name": "x length",
       "ap1ID": "ee8e31bf-8dd8-4124-9a60-a3f02c9e467e",
+      "ap2ID": "2a81744a-223c-4903-9919-8dcacd5ca8bd"
+    },
+    {
+      "ap1Name": "number",
+      "ap2Name": "x",
+      "ap1ID": "ee8e31bf-8dd8-4124-9a60-a3f02c9e467e",
+      "ap2ID": "6f1f6bf3-9e41-4494-b331-10592ea12502"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "2a81744a-223c-4903-9919-8dcacd5ca8bd",
+      "ap2ID": "dd1dea17-2751-4f04-a246-721fad9ccb90"
+    },
+    {
+      "ap1Name": "number",
+      "ap2Name": "y length",
+      "ap1ID": "40aa382c-66e1-4f7a-b6ca-eee43c67b9ad",
       "ap2ID": "2a81744a-223c-4903-9919-8dcacd5ca8bd"
     }
   ],
