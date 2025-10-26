@@ -219,8 +219,7 @@
         },
         {
           "name": "y",
-          "ioValue": 2,
-          "currentEquation": "2"
+          "ioValue": 2
         }
       ],
       "currentEquation": "x/y"
@@ -272,8 +271,7 @@
       "ioValues": [
         {
           "name": "x-axis degrees",
-          "ioValue": 90,
-          "currentEquation": "90"
+          "ioValue": 90
         },
         {
           "name": "y-axis degrees",
@@ -298,28 +296,8 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "name": "Move",
-      "x": 0.5317753177531775,
-      "y": 0.7061469265367317,
-      "uniqueID": "027a440d-56b5-46b0-beb3-e6fe5c281b2c",
-      "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 1600
+          "ioValue": 1600,
+          "currentEquation": "1600"
         },
         {
           "name": "zDist",
@@ -346,12 +324,6 @@
       "ap2Name": "x",
       "ap1ID": "7d42d22b-5c9a-4e0b-b889-770e792a09a3",
       "ap2ID": "b2ff13db-eb4f-4419-ac1f-829a1ad83bc6"
-    },
-    {
-      "ap1Name": "number",
-      "ap2Name": "yDist",
-      "ap1ID": "7d42d22b-5c9a-4e0b-b889-770e792a09a3",
-      "ap2ID": "027a440d-56b5-46b0-beb3-e6fe5c281b2c"
     },
     {
       "ap1Name": "result",
@@ -454,12 +426,6 @@
       "ap2Name": "geometry",
       "ap1ID": "65a0d1f0-4f91-44b7-8a2e-3e3f58fa86e8",
       "ap2ID": "c13a01d1-585c-4b5b-92d6-1cc6f5f7cd16"
-    },
-    {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry",
-      "ap1ID": "c13a01d1-585c-4b5b-92d6-1cc6f5f7cd16",
-      "ap2ID": "027a440d-56b5-46b0-beb3-e6fe5c281b2c"
     }
   ],
   "unitsKey": "MM",
